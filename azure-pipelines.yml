@@ -9,8 +9,8 @@ trigger:
 pool: windows-pc
 
 variables:
-  solution: '*/.sln'
-  proyecto: '*/.csproj'
+  solution: '**/*.sln'
+  proyecto: '**/*.csproj'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
